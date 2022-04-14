@@ -63,6 +63,7 @@ export default function Main() {
     return (
         <div className='main-container'>
             <EaseApp
+                isShowReaction={true}
                 header={<Header />}
                 onChatAvatarClick={handleClickSessionInfoDialog}
                 onAvatarChange={handleClickGroupMemberInfoDialog}
